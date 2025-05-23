@@ -1,0 +1,36 @@
+﻿  BPlusTree.cpp
+D:\docs\ИТИС\прога\aisd-semestr-work-1-GRassil\BplusTree\BPlusTree\BPlusTree.cpp(49,15): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+      D:\docs\ИТИС\прога\aisd-semestr-work-1-GRassil\BplusTree\BPlusTree\BPlusTree.cpp(49,15):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          D:\docs\ИТИС\прога\aisd-semestr-work-1-GRassil\BplusTree\BPlusTree\BPlusTree.cpp(303,20):
+          выполняется компиляция ссылки на экземпляр класс шаблон функции "BPlusTree<int>"
+          D:\docs\ИТИС\прога\aisd-semestr-work-1-GRassil\BplusTree\BPlusTree\BPlusTree.cpp(288,1):
+          во время компиляции функции-члена класс шаблон "void BPlusTree<int>::remove(T)"
+          with
+          [
+              T=int
+          ]
+              D:\docs\ИТИС\прога\aisd-semestr-work-1-GRassil\BplusTree\BPlusTree\BPlusTree.cpp(336,16):
+              см. первую ссылку на BPlusTree<int>::remove "main"
+          D:\docs\ИТИС\прога\aisd-semestr-work-1-GRassil\BplusTree\BPlusTree\BPlusTree.cpp(41,1):
+          во время компиляции функции-члена класс шаблон "void BPlusTree<int>::insertNonFull(BPlusTree<int>::Node *,T)"
+          with
+          [
+              T=int
+          ]
+              D:\docs\ИТИС\прога\aisd-semestr-work-1-GRassil\BplusTree\BPlusTree\BPlusTree.cpp(282,22):
+              см. первую ссылку на BPlusTree<int>::insertNonFull "BPlusTree<int>::insert"
+              D:\docs\ИТИС\прога\aisd-semestr-work-1-GRassil\BplusTree\BPlusTree\BPlusTree.cpp(306,16):
+              см. первую ссылку на BPlusTree<int>::insert "main"
+  
+D:\docs\ИТИС\прога\aisd-semestr-work-1-GRassil\BplusTree\BPlusTree\BPlusTree.cpp(77,17): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+      D:\docs\ИТИС\прога\aisd-semestr-work-1-GRassil\BplusTree\BPlusTree\BPlusTree.cpp(77,17):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          D:\docs\ИТИС\прога\aisd-semestr-work-1-GRassil\BplusTree\BPlusTree\BPlusTree.cpp(67,1):
+          во время компиляции функции-члена класс шаблон "void BPlusTree<int>::remove(BPlusTree<int>::Node *,T)"
+          with
+          [
+              T=int
+          ]
+  
+  BPlusTree.vcxproj -> D:\docs\ИТИС\прога\aisd-semestr-work-1-GRassil\BplusTree\x64\Debug\BPlusTree.exe
